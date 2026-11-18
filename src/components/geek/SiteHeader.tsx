@@ -5,7 +5,7 @@ export function SiteHeader() {
     <header className="relative z-10 border-b border-border/60 bg-background/60 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-5 py-4 sm:flex-row sm:px-8">
         <a
-          href="/"
+          href="/projeto-geek-universe-cupons/"
           aria-label="Geek Universe — página inicial"
           className="group flex items-center gap-3 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-4 focus-visible:ring-offset-background"
         >

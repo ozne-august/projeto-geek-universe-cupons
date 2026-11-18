@@ -5,6 +5,7 @@ import { defineConfig } from "vite";
 import tsConfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
+  base: "/projeto-geek-universe-cupons/",
   plugins: [
     tsConfigPaths(),
     tanstackStart({
