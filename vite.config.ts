@@ -9,6 +9,14 @@ export default defineConfig({
     tsConfigPaths(),
     tanstackStart({
       server: { entry: "server" },
+      router: {
+        basepath: "/projeto-geek-universe-cupons",
+      },
+      pages: [{ path: "/" }],
+      prerender: {
+        enabled: true,
+        crawlLinks: false,
+      },
     }),
     react(),
     tailwindcss(),
